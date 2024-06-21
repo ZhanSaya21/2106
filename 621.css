@@ -1,0 +1,52 @@
+body {
+  background-color: rgba(255, 166, 0, 0.504);
+  
+}
+
+#link {
+  color: red;
+}
+
+header nav a {
+  color: aqua;
+  text-decoration: none;
+}
+
+footer section div {
+  color: yellow;
+  background-color: rgb(177, 43, 43);
+  border: 10px dashed rgb(239, 232, 10);
+  padding: 40px;
+  padding-left: 20px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+footer {
+  font-size: 21px;
+}
+
+.content, .border
+{
+    font-size: 28px;
+    border: 10px solid sandybrown;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+}
+.content
+{
+    box-sizing: content-box;
+    width: 80px;
+    background-color: rgb(95, 158, 212);
+    color: aqua;
+}
+
+.border
+{
+    box-sizing: border-box;
+    width: 80px;
+    background-color: aqua;
+    color: blueviolet;
+}
+
